@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Glorious Webshop</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar" id="home">
+        <div class="navlogo">
+            <nav><a href=""><img class="logo" src="./images/Glorious_Logo-removebg-preview.png" alt=""></a></nav>
+        </div>
+
+        <div class="topnav">
+            <a href="#home">Home</a>
+            <a href="#newrelease">New Release</a>
+            <a href="#gerelateerdeproducten">Gerelateerde Producten</a>
+            <a href="#contactform">Contact</a>
+            <a href="#">Log In</a>
+        </div>
+    </nav>
+    <header id="newrelease">
+        <div class="boxblur">
+            <!--Header text-->
+            <div class="header">
+                <div class="headertext">
+                    <h1>Model O 2 Wireless</h1>
+                </div>
+
+                <div class="headertext2">
+                    <p>Our legendary gaming mouse enhanced in every way. Model O is a fusion of lightweight design and
+                        game-changing accuracy. Victory has never looked so good. Equiped with a 26,000 DPI BAMF 2.0
+                        Sensor
+                        Hybrid 2.4 Ghz / Bluetooth wireless 210-hour max battery life and a Ultralight 68-gram weight.
+                        This
+                        mouse is ideal for gamers.</p>
+                </div>
+            </div>
+
+            <!--2 Buttons-->
+            <div class="headerlinks">
+                <div class="headerlinksrow">
+                    <a href="">View</a>
+                </div>
+
+                <div class="headerlinksrow">
+                    <a href="">Buy</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--3 Muizen-->
+        <section class="subheading" id="gerelateerdeproducten">
+            <h1 class="gerelateerdeproductenh1">Gerelateerde Producten</h1>
+            <div class="row">
+                <div class="column">
+                    <img class="mice" loading="lazy"
+                        src="./images/Glorious_Gaming_Muis_Model-D_Minus_(Kleine)_Wit_Matte_(Branco Fosco)-Model D.webp"
+                        alt="">
+                    <h2>Glorious model D Light</h2>
+                    <p>The Model D also features a Pixart optical sensor (PMW-3360) and has a total of 6
+                        buttons, each programmable with Glorious software. The buttons on the side are
+                        the Model D became a bit larger and the whole design reminds you more of the Razer Deathadder or
+                        the Zowie EC series.</p>
+    
+                    <div>
+                        <a class="columnlinks" href="">View</a>
+                    </div>
+                </div>
+    
+                <div class="column">
+                    <img class="mice" loading="lazy" src="./images/Model-O-Light_Gaming_Mouse.webp" alt="">
+                    <h2>Glorious Model O Light</h2>
+                    <p>The Glorious MODEL O gaming mouse is Glorious' most versatile lightweight mouse yet. 9
+                        programmable buttons with 2 customizable magnetic thumb buttons put you in control. Looking at
+                        the very comfortable ergonomic shape, it is hard to believe that the Model I only weighs 69 g
+                        weighs.</p>
+    
+                    <div>
+                        <a class="columnlinks" href="">View</a>
+                    </div>
+                </div>
+    
+                <div class="column">
+                    <img class="mice" loading="lazy" src="./images/Model-O-Gaming_Mouse_1200_DPI_Pink.webp" alt="">
+                    <h2>Glorious Model O Pink</h2>
+                    <p>This limited edition pink gaming mouse with optical sensor from Pixart with maximum resolution of
+                        12,000 DPI and 6 buttons, which are programmable. It
+                        has a honeycomb design on the surface, reducing the overall weight to just 67 grams and lighting
+                        that helps highlight the interior of the mouse.</p>
+    
+                    <div>
+                        <a class="columnlinks" href="">View</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!--Contact-->
+        <section class="sectioncontact" id="contactform">
+            <div class="contactform">
+                <h1>Contact</h1>
+    
+                <form action="bedankt.html" method="POST">
+                    <div class="name">
+                        <div class="firstname">
+                            <label for="name">Voornaam</label>
+                            <input required type="text" name="name" id="name" placeholder="John">
+                        </div>
+    
+                        <div class="lastname">
+                            <label for="lastname">Achteraam</label>
+                            <input required type="text" name="lastname" id="lastname" placeholder="Richards">
+                        </div>
+                    </div>
+    
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input required type="email" name="email" id="email" placeholder="example@gmail.com">
+                    </div>
+    
+                    <div class="citydate">
+                        <div class="city">
+                            <label for="city">Woonplaats</label>
+                            <input type="text" name="city" id="city" placeholder="Rotterdam">
+                        </div>
+    
+                        <div class="date">
+                            <label for="birthdate">Geboortedatum</label>
+                            <input required type="date" name="birthdate" id="birthdate">
+                        </div>
+                    </div>
+    
+                    <div class="kies">
+                        <label for="kies">Onderwerp</label>
+                        <select required id="kies" name="kies">
+                            <option value="" disabled selected>Kies onderwerp van het bericht...</option>
+                            <option value="0">Reparatie</option>
+                            <option value="1">Garantie</option>
+                            <option value="2">Klacht</option>
+                        </select>
+                    </div>
+    
+                    <div class="question">
+                        <label for="question">Jouw vraag</label>
+                        <input required type="questionbox" id="questionbox" name="questionbox"
+                            placeholder="Vul hier je vraag in.">
+    
+                    </div>
+    
+                    <div class="register">
+                        <label for="option">Inschijven voor nieuwsbrief?</label>
+                        <div class="yesno">
+                            <input type="radio" name="option" id="ja" value="ja">
+                            <label for="ja">Ja</label>
+    
+                            <input type="radio" name="option" id="nee" value="nee">
+                            <label for="nee">Nee</label>
+                        </div>
+                    </div>
+    
+                    <div class="checkbox">
+                        <input required type="checkbox" name="terms" id="terms">
+                        <label for="terms">Ik ga accord met de voorwaarden.</label>
+                    </div>
+    
+                    <div class="submit">
+                        <button type="submit">Verstuur</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <div class="logocontainer">
+            <img class="logobottom" src="./images/Glorious_Logo-removebg-preview.png" alt="">
+        </div>
+
+        <div class="copyrightlinks">
+            <div class="copyright">
+                <a href="">Copyright 2023 Glorious</a>
+            </div>
+
+            <a class="links" href="">Privacy Policy</a>
+            <a class="links" href="">Terms & Conditions</a>
+            <a class="links" href="">Cookie Policy</a>
+            <a class="links" href="">Contact</a>
+        </div>
+
+        <div class="socialscontainer">
+            <img class="socials" src="./images/X.png" alt="">
+            <img class="socials" src="./images/Instagram_Logo.png" alt="">
+            <img class="socials" src="./images/Snapchat_Logo.png" alt="">
+            <img class="socials" src="./images/Facebook_Logo.png" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>

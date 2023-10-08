@@ -1,0 +1,393 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+    margin: 0px;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+}
+
+.navbar {
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(90deg, #C4C4C4FF 0%, #F6F6F6FF 50%, #C4C4C4FF 100%);
+}
+
+.navlogo {
+    margin: 10px 10px 5px 10px;
+}
+
+.logo {
+    width: 55px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+}
+
+.topnav a {
+    text-align: center;
+    padding: 21px 16px;
+    color: black;
+}
+
+.topnav a:hover {
+    background-size: 100% 100%;
+    background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    background-image: radial-gradient(49% 81% at 45% 47%, #FFE20345 0%, #073AFF00 100%), radial-gradient(113% 91% at 17% -2%, #0048FFFF 1%, #FF000000 99%), radial-gradient(142% 91% at 83% 7%, #00FFD0FF 1%, #FF000000 99%), radial-gradient(142% 91% at -6% 74%, #2000FFFF 1%, #FF000000 99%), radial-gradient(142% 91% at 111% 84%, #003DFFFF 0%, #8500FFFF 100%);
+    color: white;
+}
+
+p {
+    display: flex;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/Glorious-Model-O-Mouse.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Glass box blur*/
+.boxblur {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0vh 0vh 3vh 0vh;
+    margin: 25vh;
+    overflow: auto;
+}
+
+.headertext {
+    text-align: center;
+    color: white;
+}
+
+.headertext2 {
+    color: white;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerlinks a {
+    color: white;
+}
+
+/*.headerlinks a:hover {
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(90deg, #C4C4C4FF 0%, #F6F6F6FF 50%, #C4C4C4FF 100%);
+    color: black;
+}*/
+
+.headerlinksrow {
+    padding: 2vh 2vh;
+    background-size: 100% 100%;
+    background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    background-image: radial-gradient(49% 81% at 45% 47%, #FFE20345 0%, #073AFF00 100%), radial-gradient(113% 91% at 17% -2%, #0048FFFF 1%, #FF000000 99%), radial-gradient(142% 91% at 83% 7%, #00FFD0FF 1%, #FF000000 99%), radial-gradient(142% 91% at -6% 74%, #2000FFFF 1%, #FF000000 99%), radial-gradient(142% 91% at 111% 84%, #003DFFFF 0%, #8500FFFF 100%);
+    color: white;
+    border-radius: 1vh;
+    border: 1px solid black;
+    margin-right: 1vh;
+    margin-left: 1vh;
+}
+
+/*Gerelateerde producten*/
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subheading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gerelateerdeproductenh1 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    width: 33.33%;
+    padding: 15px;
+    justify-content: center;
+}
+
+.column {
+    padding: 0px 15px 0px 15px;
+    align-items: center;
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.mice {
+    width: auto;
+    height: 300px;
+}
+
+.columnlinks {
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+    background-size: 100% 100%;
+    background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    background-image: radial-gradient(49% 81% at 45% 47%, #FFE20345 0%, #073AFF00 100%), radial-gradient(113% 91% at 17% -2%, #0048FFFF 1%, #FF000000 99%), radial-gradient(142% 91% at 83% 7%, #00FFD0FF 1%, #FF000000 99%), radial-gradient(142% 91% at -6% 74%, #2000FFFF 1%, #FF000000 99%), radial-gradient(142% 91% at 111% 84%, #003DFFFF 0%, #8500FFFF 100%);
+    text-decoration: none;
+    color: white;
+    border-radius: 1vh;
+}
+
+/*Contact Form*/
+form {
+    margin-left: 50vh;
+    margin-right: 50vh;
+    text-align: start;
+}
+
+.sectioncontact {
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+    padding: 5vh 0vh 10vh 0vh;
+}
+
+form label {
+    padding-bottom: 1vh;
+}
+
+.firstname,
+.lastname,
+.email,
+.city,
+.date,
+.kies,
+.question,
+.register {
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    font-weight: bold;
+}
+
+.yesno {
+    font-weight: normal;
+}
+
+.name,
+.citydate {
+    display: flex;
+}
+
+
+.checkbox {
+    padding: 1vh;
+}
+
+/*Textboxes*/
+input[type="text"],
+select,
+input[type="email"],
+input[type="date"],
+input[type="city"],
+input[type="radio"],
+input[type="checkbox"] {
+    padding: 1vh 10vh 1vh 1vh;
+    font-size: 1rem;
+}
+
+input[type="questionbox"] {
+    padding: 0vh 10vh 15vh 1vh;
+    font-size: 1rem;
+}
+
+/*Moet ingevuld worden*/
+input:invalid {
+    display: inline;
+}
+
+/*Versturen knop*/
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+button {
+    text-align: center;
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+    background-size: 100% 100%;
+    background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    background-image: radial-gradient(49% 81% at 45% 47%, #FFE20345 0%, #073AFF00 100%), radial-gradient(113% 91% at 17% -2%, #0048FFFF 1%, #FF000000 99%), radial-gradient(142% 91% at 83% 7%, #00FFD0FF 1%, #FF000000 99%), radial-gradient(142% 91% at -6% 74%, #2000FFFF 1%, #FF000000 99%), radial-gradient(142% 91% at 111% 84%, #003DFFFF 0%, #8500FFFF 100%);
+    padding: 2vh 6vh;
+    border: 1px solid black;
+    border-radius: 1vh;
+}
+
+/*Footer*/
+footer {
+    padding: 34px;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    /* Box */
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(90deg, #C4C4C4FF 0%, #F6F6F6FF 50%, #C4C4C4FF 100%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.logocontainer {
+    display: flex;
+    margin-bottom: 2vh;
+    margin-left: 8vh;
+}
+
+.logobottom {
+    height: 90px;
+    width: 120px;
+}
+
+.copyright {
+    margin-right: auto;
+}
+
+.copyright a {
+    color: black;
+}
+
+.socialscontainer {
+    display: flex;
+    margin-left: 4vh;
+    margin-top: 2vh;
+}
+
+.socials {
+    height: 4vh;
+    width: 5vh;
+    padding: 0vh 1vh 0vh 0vh;
+}
+
+.links {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 0vh 3vh 0vh 3vh;
+}
+
+.copyrightlinks {
+    display: flex;
+    justify-content: end;
+    margin-right: 4vh;
+    margin-left: 5vh;
+}
+
+@media (width <= 425px) {
+    * {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topnav {
+        flex-direction: column;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .column img {
+        max-width: 100%;
+        height: auto;
+        min-width: 100px;
+    }
+
+    .logocontainer {
+        align-items: center;
+    }
+
+    .socialscontainer {
+        align-items: center;
+    }
+}
+
+@media (max-width: 530px) {
+    .copyrightlinks {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 720px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media (orientation: portrait) {
+    nav {
+        flex-direction: column;
+    }
+
+    .firstname,
+    .lastname,
+    .email,
+    .city,
+    .date,
+    .kies,
+    .question,
+    .register {
+        margin: 2vh 0;
+    }
+}
+
+/*@media (height: px >< px)*/
